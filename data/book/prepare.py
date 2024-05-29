@@ -12,14 +12,14 @@ def parse_pdfFinML(filename):
     reader = PdfReader(filename)
     print(f'Number of pages FinML: {len(reader.pages)}')
     for i in range(len(reader.pages)):
-        textname = os.path.join("data/book/extractedPageFinML",f"{outputname1}.txt")
+        textname = os.path.join("data/extractedPageFinML",f"{outputname1}.txt")
         savetofile(reader.pages[i].extract_text(), textname)
 
 def parse_pdfTrading(filename):
     reader = PdfReader(filename)
     print(f'Number of pages Trading: {len(reader.pages)}')
     for i in range(len(reader.pages)):
-        textname = os.path.join("data/book/extractedPageTrading",f"{outputname2}.txt")
+        textname = os.path.join("data/extractedPageTrading",f"{outputname2}.txt")
         savetofile(reader.pages[i].extract_text(), textname)
 
 if __name__ == '__main__':
