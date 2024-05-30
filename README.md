@@ -1,9 +1,11 @@
 **DEMO FINBOT TO EXPLORE FINANCE**
 
 Requirements:
+
     python 3.11
     pypdf ----> Install: pip install pypdf
     pytorch >= 2.0
+    
     Number of pages FinML: 152
     Number of pages Trading: 284
     Words:  140625, Padding: 140672
