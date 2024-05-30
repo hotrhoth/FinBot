@@ -9,5 +9,5 @@ Requirements:
     Number of pages Trading: 284
     Words:  140625, Padding: 140672
 
-**Goal: FinBot reads your input financial books and generates answers to any questions you ask.
-Still in progress: FinBot has the ability to calculate certain variables while analyzing your provided data and has models to predict trends**
+* Goal: FinBot reads your input financial books and generates answers to any questions you ask.
+* Still in progress: FinBot has the ability to calculate certain variables while analyzing your provided data and has models to predict trends
